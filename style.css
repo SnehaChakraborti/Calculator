@@ -1,0 +1,39 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  #result {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    background-color: #a17272;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .operator {
+    background-color: #ff9800;
+  }
+  
+  .equal {
+    background-color: #4caf50;
+    grid-column: span 2;
+  }
+  
